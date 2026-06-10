@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "Javascript,MySQL,HTML,CSS,node.js,Express.js., practice",
+  "main": "practice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanawaj679/practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanawaj679/practice/issues"
+  },
+  "homepage": "https://github.com/shanawaj679/practice#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "node.js": "^0.0.1-security"
+  }
+}
