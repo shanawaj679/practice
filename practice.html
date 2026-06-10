@@ -14,7 +14,7 @@
             try{
                 const response=await fetch('http://localhost:3000/getdata');
                 if(!response.ok){
-                    throw new Error("status error,404/500")
+                    throw new Error("status error,404/500",response.status);
                 }
                 const data=await response.text();
                 document.getElementById("printdata").innerHTML=data;
