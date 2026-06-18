@@ -1,0 +1,30 @@
+// as a input gmail,password name., post send data to db., get data from db ., learn put and delete .,,........//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="email" placeholder="enter your email" id="email">
+        <input type="password" placeholder="enter your password" id="password">
+        <input type="text" placeholder="enter your name" id="name">
+    </div>
+    <div>
+        <button type="submit" onclick="putdata()">REGISTER</button>
+    </div>
+    <div> 
+           <button onclick="getdata()">show database</button>
+           <div id="showdata"></div>
+    </div>
+    <div>
+        <button onclick="modifydata()">change password</button>
+    </div>
+    <div>
+        <button onclick="deletedata()">delete user</button>
+    </div>
+</body>
+      <script src="frontend.js"></script>
+</html>
